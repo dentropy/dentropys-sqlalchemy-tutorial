@@ -1,3 +1,0 @@
-[submodule "sample-sqlite-databases"]
-	path = learning_sqlalchemy/sample-sqlite-databases
-	url = git@github.com:codecrafters-io/sample-sqlite-databases.git
