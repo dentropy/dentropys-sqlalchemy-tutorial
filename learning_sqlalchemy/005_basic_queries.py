@@ -4,7 +4,7 @@ from sqlalchemy.ext.automap import automap_base
 
 from sqlalchemy import create_engine
 
-engine_path = "sqlite+pysqlite:///" + "/".join(os.getcwd().split("/")[:-1]) + "/chinook.db"
+engine_path = "sqlite+pysqlite:///" + "/".join(os.getcwd().split("/")) + "/chinook.db"
 engine = create_engine(engine_path, echo=True)
 
 
