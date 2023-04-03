@@ -1,2 +1,5 @@
 learning_sqlalchemy/chinook.db
 learning_sqlalchemy/my_erd.png
+orm_test.db
+*.db
+__pycache__
